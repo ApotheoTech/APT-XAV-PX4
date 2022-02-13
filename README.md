@@ -9,6 +9,7 @@ APT-XAV-PX4 is a PX4 based flight controller following FMUv5X. It has a SODIMM c
 
 The APT-XAV-PX4 breaks out Ethernet, USB-C, HDMI, DisplayPort, 2 Raspberry PiCam MIPI connectors (2lane and 4 lane) and a connector for Alvium Sensors. The pinout for the Alvium connector must be used in conjunction with AntMicro's flex cables.
 
+https://user-images.githubusercontent.com/43386283/153778050-1cda64f4-45f2-4941-b6fc-7a415ffa1639.mp4
 
 # Where to Buy
 
