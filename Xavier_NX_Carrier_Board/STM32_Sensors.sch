@@ -1,0 +1,537 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 18
+Title "Bosch BMP388 and Invensense ICM-20602 for STM32"
+Date "2021-02-13"
+Rev "1.0"
+Comp "ApotheoTech"
+Comment1 ""
+Comment2 "Author: Chance Reimer"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Xavier_NX_Lib:BMP388 IC5
+U 1 1 606640D5
+P 2700 1700
+F 0 "IC5" H 2725 2075 50  0000 C CNN
+F 1 "BMP388" H 2725 1984 50  0000 C CNN
+F 2 "Xavier_NX_Carrier_Board:BMP388" H 4350 2200 50  0001 L CNN
+F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP388-DS001-01.pdf" H 4350 2100 50  0001 L CNN
+F 4 "Board Mount Pressure Sensors MEMS Absolute Barometric Pressure Sensor" H 4350 2000 50  0001 L CNN "Description"
+F 5 "0" H 4050 1900 50  0001 L CNN "Height"
+F 6 "262-BMP388" H 4350 1900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP388/?qs=rrS6PyfT74eIcD5Rv1Kf7A%3D%3D" H 4350 1800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bosch Sensortec" H 4350 1700 50  0001 L CNN "Manufacturer_Name"
+F 9 "BMP388" H 4350 1600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2700 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 1210 1110 0    50   ~ 0
+Refer to page 47 of BMP388-DS001 for Schematic
+Wire Wire Line
+	2250 1550 2050 1550
+Wire Wire Line
+	2250 1650 2050 1650
+Wire Wire Line
+	2250 1750 2050 1750
+Wire Wire Line
+	2250 1850 2050 1850
+Wire Wire Line
+	2250 1950 2050 1950
+Wire Wire Line
+	3200 1550 3350 1550
+Wire Wire Line
+	3350 1550 3350 1400
+Wire Wire Line
+	3350 1400 3550 1400
+Wire Wire Line
+	3350 1400 3350 1300
+Connection ~ 3350 1400
+$Comp
+L Device:C C?
+U 1 1 6074F017
+P 3550 1650
+AR Path="/60175770/6074F017" Ref="C?"  Part="1" 
+AR Path="/60749EAF/6074F017" Ref="C?"  Part="1" 
+AR Path="/60175952/6074F017" Ref="C?"  Part="1" 
+AR Path="/601755DB/6074F017" Ref="C?"  Part="1" 
+AR Path="/6099AB86/6074F017" Ref="C?"  Part="1" 
+AR Path="/6099AB86/615913D7/6074F017" Ref="C130"  Part="1" 
+F 0 "C130" H 3400 1550 50  0000 C CNN
+F 1 "0.1uF" H 3340 1620 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3588 1500 50  0001 C CNN
+F 3 "~" H 3550 1650 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3550 1650 50  0001 C CNN "PartNumber"
+F 5 "10" H 3550 1650 50  0001 C CNN "Tol"
+F 6 "6.3V" H 3360 1690 50  0000 C CNN "Voltage"
+	1    3550 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6074FACC
+P 3950 1650
+AR Path="/60175770/6074FACC" Ref="C?"  Part="1" 
+AR Path="/60749EAF/6074FACC" Ref="C?"  Part="1" 
+AR Path="/60175952/6074FACC" Ref="C?"  Part="1" 
+AR Path="/601755DB/6074FACC" Ref="C?"  Part="1" 
+AR Path="/6099AB86/6074FACC" Ref="C?"  Part="1" 
+AR Path="/6099AB86/615913D7/6074FACC" Ref="C131"  Part="1" 
+F 0 "C131" H 3800 1550 50  0000 C CNN
+F 1 "0.1uF" H 3740 1620 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3988 1500 50  0001 C CNN
+F 3 "~" H 3950 1650 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3950 1650 50  0001 C CNN "PartNumber"
+F 5 "10" H 3950 1650 50  0001 C CNN "Tol"
+F 6 "6.3V" H 3760 1690 50  0000 C CNN "Voltage"
+	1    3950 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 1500 3550 1400
+Connection ~ 3550 1400
+Wire Wire Line
+	3950 1400 3950 1500
+Wire Wire Line
+	3550 1400 3950 1400
+Wire Wire Line
+	3550 1800 3550 1900
+Wire Wire Line
+	3550 1900 3950 1900
+Wire Wire Line
+	3950 1900 3950 1800
+Connection ~ 3950 1900
+$Comp
+L power:GND #PWR0285
+U 1 1 607506C6
+P 3950 2100
+F 0 "#PWR0285" H 3950 1850 50  0001 C CNN
+F 1 "GND" H 3955 1927 50  0000 C CNN
+F 2 "" H 3950 2100 50  0001 C CNN
+F 3 "" H 3950 2100 50  0001 C CNN
+	1    3950 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1650 3350 1650
+Wire Wire Line
+	3350 1650 3350 1550
+Connection ~ 3350 1550
+Wire Wire Line
+	3200 1750 3350 1750
+Wire Wire Line
+	3350 1750 3350 1850
+Wire Wire Line
+	3350 1850 3200 1850
+Wire Wire Line
+	3350 1850 3350 1950
+Wire Wire Line
+	3350 1950 3200 1950
+Connection ~ 3350 1850
+Wire Wire Line
+	3350 1950 3350 2100
+Connection ~ 3350 1950
+$Comp
+L power:GND #PWR0284
+U 1 1 60752207
+P 3350 2100
+F 0 "#PWR0284" H 3350 1850 50  0001 C CNN
+F 1 "GND" H 3355 1927 50  0000 C CNN
+F 2 "" H 3350 2100 50  0001 C CNN
+F 3 "" H 3350 2100 50  0001 C CNN
+	1    3350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1900 3950 2100
+Text Notes 1180 1030 0    157  ~ 0
+BMP388, Baro
+$Comp
+L power:+3.3V #PWR0282
+U 1 1 60763ECB
+P 2050 1850
+F 0 "#PWR0282" H 2050 1700 50  0001 C CNN
+F 1 "+3.3V" V 2050 2070 50  0000 C CNN
+F 2 "" H 2050 1850 50  0001 C CNN
+F 3 "" H 2050 1850 50  0001 C CNN
+	1    2050 1850
+	0    -1   -1   0   
+$EndComp
+Text Notes 1200 1270 0    50   ~ 0
+Note, I2C4 is used for BMP388,\npage 7 DS-012 PX4
+Text HLabel 2050 1550 0    50   Input ~ 0
+I2C4_SCL
+Text HLabel 2050 1650 0    50   BiDi ~ 0
+I2C4_SDA
+$Comp
+L power:+3.3V #PWR0283
+U 1 1 607852E3
+P 3350 1300
+F 0 "#PWR0283" H 3350 1150 50  0001 C CNN
+F 1 "+3.3V" H 3365 1473 50  0000 C CNN
+F 2 "" H 3350 1300 50  0001 C CNN
+F 3 "" H 3350 1300 50  0001 C CNN
+	1    3350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0281
+U 1 1 6078A38C
+P 2050 1750
+F 0 "#PWR0281" H 2050 1500 50  0001 C CNN
+F 1 "GND" V 2055 1622 50  0000 R CNN
+F 2 "" H 2050 1750 50  0001 C CNN
+F 3 "" H 2050 1750 50  0001 C CNN
+	1    2050 1750
+	0    1    1    0   
+$EndComp
+Text HLabel 1650 1950 0    50   Output ~ 0
+BMP388_INT
+$Comp
+L Device:R R?
+U 1 1 6079BEA4
+P 1900 1950
+AR Path="/60175952/6079BEA4" Ref="R?"  Part="1" 
+AR Path="/607674B2/6079BEA4" Ref="R?"  Part="1" 
+AR Path="/6099AB86/615913D7/6079BEA4" Ref="R152"  Part="1" 
+F 0 "R152" V 1930 1760 50  0000 C CNN
+F 1 "0" V 1940 2120 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1830 1950 50  0001 C CNN
+F 3 "~" H 1900 1950 50  0001 C CNN
+F 4 "ERJ-2GE0R00X" V 1900 1950 50  0001 C CNN "PartNumber"
+F 5 "" H 1990 1850 50  0001 C CNN "Tol"
+F 6 "0.1W" V 1890 1950 50  0000 C CNN "Power"
+	1    1900 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 1950 1650 1950
+Text Notes 1070 2200 0    50   ~ 0
+In I2C mode, SDO is LSB of addr,\nAddr for this BMP388 is: 111_0110 or 0xEC for 7 bit
+$Comp
+L Xavier_NX_Lib:ICM-20602 IC6
+U 1 1 6090398E
+P 7800 2500
+F 0 "IC6" H 8560 3120 50  0000 C CNN
+F 1 "ICM-20602" H 8720 3050 50  0000 C CNN
+F 2 "Xavier_NX_Carrier_Board:ICM-20602" H 10150 3200 50  0001 L CNN
+F 3 "https://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf" H 10150 3100 50  0001 L CNN
+F 4 "IMUs - Inertial Measurement Units Low-Power, High-Performance Integrated 6-Axis MEMS MotionTracking  Device in 3mm x 3mm Package" H 10150 3000 50  0001 L CNN "Description"
+F 5 "410-ICM-20602" H 10150 2800 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-20602/?qs=u4fy%2FsgLU9NtDChFbqTxBA%3D%3D" H 10150 2700 50  0001 L CNN "Mouser Price/Stock"
+F 7 "TDK" H 9950 2450 50  0001 L CNN "Manufacturer_Name"
+F 8 "ICM-20602" H 9950 2400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7800 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2600 7300 2600
+Wire Wire Line
+	7800 2700 7300 2700
+Wire Wire Line
+	7800 2800 7300 2800
+Text HLabel 7300 2600 0    50   Input ~ 0
+ICM_20602_SCK
+Text HLabel 7300 2700 0    50   Input ~ 0
+ICM_20602_MOSI
+Text HLabel 7300 2800 0    50   Input ~ 0
+ICM_20602_MISO
+Text HLabel 6400 2900 0    50   Input ~ 0
+ICM_20602_CS
+Wire Wire Line
+	9200 2500 9300 2500
+Wire Wire Line
+	9300 2500 9300 2600
+Wire Wire Line
+	9300 2600 9200 2600
+Wire Wire Line
+	9300 2600 9300 2700
+Wire Wire Line
+	9300 2700 9200 2700
+Connection ~ 9300 2600
+Wire Wire Line
+	9300 2700 9300 2800
+Wire Wire Line
+	9300 2800 9200 2800
+Connection ~ 9300 2700
+Wire Wire Line
+	9300 2800 9300 2900
+Wire Wire Line
+	9300 2900 9200 2900
+Connection ~ 9300 2800
+Wire Wire Line
+	9300 2900 9300 3000
+Connection ~ 9300 2900
+$Comp
+L Device:C C?
+U 1 1 60DBBD1D
+P 8000 1550
+AR Path="/60175770/60DBBD1D" Ref="C?"  Part="1" 
+AR Path="/60749EAF/60DBBD1D" Ref="C?"  Part="1" 
+AR Path="/60175952/60DBBD1D" Ref="C?"  Part="1" 
+AR Path="/601755DB/60DBBD1D" Ref="C?"  Part="1" 
+AR Path="/6099AB86/60DBBD1D" Ref="C?"  Part="1" 
+AR Path="/6099AB86/615913D7/60DBBD1D" Ref="C132"  Part="1" 
+F 0 "C132" H 7850 1450 50  0000 C CNN
+F 1 "10nF" H 7790 1520 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8038 1400 50  0001 C CNN
+F 3 "~" H 8000 1550 50  0001 C CNN
+F 4 "0402ZC103KAT2A" H 8000 1550 50  0001 C CNN "PartNumber"
+F 5 "10" H 8000 1550 50  0001 C CNN "Tol"
+F 6 "10V" H 7810 1590 50  0000 C CNN "Voltage"
+	1    8000 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60DBCFA2
+P 9500 2350
+AR Path="/60175770/60DBCFA2" Ref="C?"  Part="1" 
+AR Path="/60749EAF/60DBCFA2" Ref="C?"  Part="1" 
+AR Path="/60175952/60DBCFA2" Ref="C?"  Part="1" 
+AR Path="/601755DB/60DBCFA2" Ref="C?"  Part="1" 
+AR Path="/6099AB86/60DBCFA2" Ref="C?"  Part="1" 
+AR Path="/6099AB86/615913D7/60DBCFA2" Ref="C135"  Part="1" 
+F 0 "C135" H 9350 2250 50  0000 C CNN
+F 1 "0.1uF" H 9290 2320 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 2200 50  0001 C CNN
+F 3 "~" H 9500 2350 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 9500 2350 50  0001 C CNN "PartNumber"
+F 5 "10" H 9500 2350 50  0001 C CNN "Tol"
+F 6 "6.3V" H 9310 2390 50  0000 C CNN "Voltage"
+	1    9500 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60DBDF6D
+P 8800 1550
+AR Path="/60175770/60DBDF6D" Ref="C?"  Part="1" 
+AR Path="/60749EAF/60DBDF6D" Ref="C?"  Part="1" 
+AR Path="/60175952/60DBDF6D" Ref="C?"  Part="1" 
+AR Path="/601755DB/60DBDF6D" Ref="C?"  Part="1" 
+AR Path="/6099AB86/60DBDF6D" Ref="C?"  Part="1" 
+AR Path="/6099AB86/615913D7/60DBDF6D" Ref="C133"  Part="1" 
+F 0 "C133" H 8650 1450 50  0000 C CNN
+F 1 "0.1uF" H 8590 1520 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8838 1400 50  0001 C CNN
+F 3 "~" H 8800 1550 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 8800 1550 50  0001 C CNN "PartNumber"
+F 5 "10" H 8800 1550 50  0001 C CNN "Tol"
+F 6 "6.3V" H 8610 1590 50  0000 C CNN "Voltage"
+	1    8800 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9200 3000 9300 3000
+Connection ~ 9300 3000
+Wire Wire Line
+	9200 3100 9300 3100
+Wire Wire Line
+	9300 3000 9300 3100
+Connection ~ 9300 3100
+Wire Wire Line
+	9300 3100 9300 3510
+Wire Wire Line
+	9200 2100 9500 2100
+Wire Wire Line
+	9500 2100 9500 2200
+Wire Wire Line
+	9500 2500 9500 2600
+$Comp
+L power:GND #PWR0291
+U 1 1 60DC6A89
+P 9500 2600
+F 0 "#PWR0291" H 9500 2350 50  0001 C CNN
+F 1 "GND" H 9505 2427 50  0000 C CNN
+F 2 "" H 9500 2600 50  0001 C CNN
+F 3 "" H 9500 2600 50  0001 C CNN
+	1    9500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1300 8400 1800
+Wire Wire Line
+	8800 1400 8800 1300
+Wire Wire Line
+	8400 1300 8800 1300
+Wire Wire Line
+	8800 1700 8800 1800
+Wire Wire Line
+	8800 1800 9300 1800
+Wire Wire Line
+	8800 1300 9300 1300
+Connection ~ 8800 1300
+$Comp
+L Device:C C?
+U 1 1 60DD0E11
+P 9300 1550
+AR Path="/60175770/60DD0E11" Ref="C?"  Part="1" 
+AR Path="/60749EAF/60DD0E11" Ref="C?"  Part="1" 
+AR Path="/60175952/60DD0E11" Ref="C?"  Part="1" 
+AR Path="/601755DB/60DD0E11" Ref="C?"  Part="1" 
+AR Path="/6099AB86/60DD0E11" Ref="C?"  Part="1" 
+AR Path="/6099AB86/615913D7/60DD0E11" Ref="C134"  Part="1" 
+F 0 "C134" H 9150 1450 50  0000 C CNN
+F 1 "2.2uF" H 9090 1520 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9338 1400 50  0001 C CNN
+F 3 "~" H 9300 1550 50  0001 C CNN
+F 4 "CL10B225KP8NFNC" H 9300 1550 50  0001 C CNN "PartNumber"
+F 5 "10" H 9300 1550 50  0001 C CNN "Tol"
+F 6 "10V" H 9110 1590 50  0000 C CNN "Voltage"
+	1    9300 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9300 1800 9300 1700
+Wire Wire Line
+	9300 1400 9300 1300
+Wire Wire Line
+	8400 1300 8400 1200
+Connection ~ 8400 1300
+$Comp
+L power:+3.3V #PWR0288
+U 1 1 60DD3AC4
+P 8400 1200
+F 0 "#PWR0288" H 8400 1050 50  0001 C CNN
+F 1 "+3.3V" H 8415 1373 50  0000 C CNN
+F 2 "" H 8400 1200 50  0001 C CNN
+F 3 "" H 8400 1200 50  0001 C CNN
+	1    8400 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1800 9300 1900
+Connection ~ 9300 1800
+$Comp
+L power:GND #PWR0289
+U 1 1 60DD5286
+P 9300 1900
+F 0 "#PWR0289" H 9300 1650 50  0001 C CNN
+F 1 "GND" H 9450 1830 50  0000 C CNN
+F 2 "" H 9300 1900 50  0001 C CNN
+F 3 "" H 9300 1900 50  0001 C CNN
+	1    9300 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3100 7700 3100
+Wire Wire Line
+	7700 3100 7700 3500
+$Comp
+L power:GND #PWR0290
+U 1 1 60DD7786
+P 9300 3510
+F 0 "#PWR0290" H 9300 3260 50  0001 C CNN
+F 1 "GND" H 9305 3337 50  0000 C CNN
+F 2 "" H 9300 3510 50  0001 C CNN
+F 3 "" H 9300 3510 50  0001 C CNN
+	1    9300 3510
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0286
+U 1 1 60DD86BC
+P 7700 3500
+F 0 "#PWR0286" H 7700 3250 50  0001 C CNN
+F 1 "GND" H 7705 3327 50  0000 C CNN
+F 2 "" H 7700 3500 50  0001 C CNN
+F 3 "" H 7700 3500 50  0001 C CNN
+	1    7700 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 1400 8000 1300
+Wire Wire Line
+	8000 1300 8400 1300
+Wire Wire Line
+	8000 1300 7600 1300
+Wire Wire Line
+	7600 1300 7600 2100
+Wire Wire Line
+	7600 2100 7800 2100
+Connection ~ 8000 1300
+Wire Wire Line
+	8000 1700 8000 1800
+$Comp
+L power:GND #PWR0287
+U 1 1 60DE4B47
+P 8000 1800
+F 0 "#PWR0287" H 8000 1550 50  0001 C CNN
+F 1 "GND" H 8130 1750 50  0000 C CNN
+F 2 "" H 8000 1800 50  0001 C CNN
+F 3 "" H 8000 1800 50  0001 C CNN
+	1    8000 1800
+	1    0    0    -1  
+$EndComp
+Text HLabel 7300 3000 0    50   Input ~ 0
+ICM_20602_INT
+$Comp
+L Device:R R?
+U 1 1 60DEDAE9
+P 7540 3000
+AR Path="/60175952/60DEDAE9" Ref="R?"  Part="1" 
+AR Path="/607674B2/60DEDAE9" Ref="R?"  Part="1" 
+AR Path="/6099AB86/615913D7/60DEDAE9" Ref="R153"  Part="1" 
+F 0 "R153" V 7570 2810 50  0000 C CNN
+F 1 "0" V 7580 3170 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7470 3000 50  0001 C CNN
+F 3 "~" H 7540 3000 50  0001 C CNN
+F 4 "ERJ-2GE0R00X" V 7540 3000 50  0001 C CNN "PartNumber"
+F 5 "" H 7630 2900 50  0001 C CNN "Tol"
+F 6 "0.1W" V 7530 3000 50  0000 C CNN "Power"
+	1    7540 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7690 3000 7800 3000
+Wire Wire Line
+	7390 3000 7300 3000
+Text Notes 6650 1140 0    157  ~ 0
+ICM-20602\n3 axis accel
+Text Notes 9110 1130 0    50   ~ 0
+Pin info on page 17 of DS-000176_ICM_20602\nLayout on page 18
+Text Notes 7140 3910 0    50   ~ 0
+Note, FSYNC is optional,\nCONNECT TO GND IF NOT USED
+Wire Wire Line
+	6400 2900 6500 2900
+$Comp
+L Device:R R?
+U 1 1 60F51D1C
+P 6500 3150
+AR Path="/60175952/60F51D1C" Ref="R?"  Part="1" 
+AR Path="/6099AB86/61590AA1/60F51D1C" Ref="R?"  Part="1" 
+AR Path="/6099AB86/615913D7/60F51D1C" Ref="R166"  Part="1" 
+F 0 "R166" H 6650 3200 50  0000 C CNN
+F 1 "4.7k" H 6630 3120 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 3150 50  0001 C CNN
+F 3 "~" H 6500 3150 50  0001 C CNN
+F 4 "RCC04024K70FKED" V 6500 3150 50  0001 C CNN "PartNumber"
+F 5 "1%" H 6610 3050 50  0000 C CNN "Tol"
+F 6 "1/8W" H 6640 3060 50  0001 C CNN "Power"
+	1    6500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3000 6500 2900
+Connection ~ 6500 2900
+Wire Wire Line
+	6500 2900 7800 2900
+Wire Wire Line
+	6500 3300 6500 3400
+$Comp
+L power:+3.3V #PWR020
+U 1 1 60F559C8
+P 6500 3400
+F 0 "#PWR020" H 6500 3250 50  0001 C CNN
+F 1 "+3.3V" H 6515 3573 50  0000 C CNN
+F 2 "" H 6500 3400 50  0001 C CNN
+F 3 "" H 6500 3400 50  0001 C CNN
+	1    6500 3400
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

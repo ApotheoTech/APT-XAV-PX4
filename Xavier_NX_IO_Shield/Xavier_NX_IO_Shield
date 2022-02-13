@@ -1,0 +1,92 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>C:\Users\chanc\OneDrive\Desktop\Drone_Build\Xavier_NX_Drone\Xavier_NX_IO_Shield\Xavier_NX_IO_Shield.sch</h1>
+    <p>7/7/2021 12:59:11 PM</p>
+    <p>Eeschema (5.1.5)-3</p>
+    <p><b>Component Count:</b>309</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Part Number</th></tr>
+    <tr><td>C1, C3, C7, C8, C9, C11, C12, C14, C15, C16, C18, C19, C20, C23, C24, C25, C26, C27, C29, C30, C31, C32, C33, C34, C36, C40, C42, C46, C47, C48, C49, C51, C55, C56, C57, C58, C59, C60, C61, C62, C63, C64, C65, C66, C67, C70, C71, C72, C73, C74, C75, C76, C77, C78, C81, C82, C83, C84, C85, C86, C87, C88</td><td>62</td><td>0.1uF</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td>C1005X5R0J104K050BA</td></tr>
+    <tr><td>C2</td><td>1</td><td>4.7uF</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td>GRM155R60J475ME87D</td></tr>
+    <tr><td>C4, C5</td><td>2</td><td>2.2uF</td><td>Device:C</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor</td><td>CC0603KRX5R9BB225</td></tr>
+    <tr><td>C6, C79, C80</td><td>3</td><td>10uF</td><td>Device:CP1</td><td>Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L</td><td>Polarized capacitor, US symbol</td><td>F381A106MMAAH1</td></tr>
+    <tr><td>C10, C17</td><td>2</td><td>6pF</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td>CC0402BRNPO9BN6R0</td></tr>
+    <tr><td>C13</td><td>1</td><td>1uF</td><td>Device:CP1</td><td>Capacitor_Tantalum_SMD:CP_EIA-1608-10_AVX-L</td><td>Polarized capacitor, US symbol</td><td>TACL105K010RTA</td></tr>
+    <tr><td>C21, C22</td><td>2</td><td>1.5pF</td><td>Device:C</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Unpolarized capacitor</td><td>CC0603BRNPO9BN1R5</td></tr>
+    <tr><td>C35, C41, C50</td><td>3</td><td>1uF</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td>GRT155R61E105KE01D</td></tr>
+    <tr><td>C37, C43, C52</td><td>3</td><td>4700pF</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td>0402B472J500CT</td></tr>
+    <tr><td>C38, C39, C44, C45, C53, C54, C89, C90</td><td>8</td><td>47pF</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td>C0402C470J5GACTU</td></tr>
+    <tr><td>C68</td><td>1</td><td>2.2uF</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td>C1005X5R1A225K050BC</td></tr>
+    <tr><td>C69</td><td>1</td><td>1uF</td><td>Device:C</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor</td><td>C0402C105Z9VACTU</td></tr>
+    <tr><td>D1</td><td>1</td><td>1N4148WS</td><td>Device:D</td><td>Diode_SMD:D_SOD-323F</td><td>Diode</td><td></td></tr>
+    <tr><td>D2, D3, D4, D5, D6, D7, D8, D10, D11, D12, D15, D16, D17, D18, D19, D21, D22, D23, D24, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, D38, D40, D41, D42, D43, D44</td><td>37</td><td>PESD0402-140</td><td>Device:D_TVS</td><td>Xavier_NX_IO_Shield:PESD0402</td><td>Bidirectional transient-voltage-suppression diode</td><td></td></tr>
+    <tr><td>D13, D14, D20, D25</td><td>4</td><td>ESD7104MUTAG</td><td>Xavier_IO_Lib:ESD7104MUTAG</td><td>Xavier_NX_IO_Shield:ESD8104MUTAG</td><td></td><td></td></tr>
+    <tr><td>D39, D45, D46</td><td>3</td><td>APT1608SGC</td><td>Device:LED</td><td>LED_SMD:LED_0603_1608Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D47, D48</td><td>2</td><td>APTD1608LVBC/D</td><td>Device:LED</td><td>LED_SMD:LED_0603_1608Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>D49, D50, D51</td><td>3</td><td>APTD1608SECK/J3-PF</td><td>Device:LED</td><td>LED_SMD:LED_0603_1608Metric</td><td>Light emitting diode</td><td></td></tr>
+    <tr><td>FB1</td><td>1</td><td>BLM18EG221SN1D</td><td>Device:Ferrite_Bead</td><td>Capacitor_SMD:C_0603_1608Metric</td><td>Ferrite bead</td><td></td></tr>
+    <tr><td>FB2</td><td>1</td><td>MPZ1005S121HT000</td><td>Device:Ferrite_Bead</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Ferrite bead</td><td></td></tr>
+    <tr><td>FB3</td><td>1</td><td>‎BLM18AG102SH1D‎</td><td>Device:Ferrite_Bead</td><td>Diode_SMD:D_0603_1608Metric</td><td>Ferrite bead</td><td></td></tr>
+    <tr><td>FID1</td><td>1</td><td>sym_Generic</td><td>Mechanical:Fiducial</td><td>Xavier_NX_IO_Shield:ApotheoTech_Sym</td><td>Fiducial Marker</td><td></td></tr>
+    <tr><td>FL1, FL2, FL3, FL4, FL6, FL7, FL8, FL9, FL10, FL11, FL12, FL13, FL14, FL15, FL16, FL17, FL18, FL19, FL20, FL21, FL22, FL25</td><td>22</td><td>NFM18PC104R1C3D</td><td>Xavier_IO_Lib:NFM18PC104R1C3D</td><td>Xavier_NX_IO_Shield:NFM18PC104R1C3D</td><td></td><td></td></tr>
+    <tr><td>FL23, FL24</td><td>2</td><td>DLW43MH201XK2L</td><td>Xavier_IO_Lib:DLW43MH201XK2L</td><td>Xavier_NX_IO_Shield:DLW43MH201XK2K</td><td></td><td></td></tr>
+    <tr><td>H1, H2, H3, H4</td><td>4</td><td>MountingHole_Pad</td><td>Mechanical:MountingHole_Pad</td><td>MountingHole:MountingHole_2.5mm_Pad</td><td>Mounting Hole with connection</td><td></td></tr>
+    <tr><td>IC1</td><td>1</td><td>STM32F405RGT6TR</td><td>Xavier_IO_Lib:STM32F405RGT6TR</td><td>Xavier_NX_IO_Shield:STM32F405RGT6TR</td><td></td><td></td></tr>
+    <tr><td>IC2</td><td>1</td><td>SN74LVC2GU04DCKR</td><td>Xavier_IO_Lib:SN74LVC2GU04DCKR</td><td>Xavier_NX_IO_Shield:SN74LVC2GU04DCKR</td><td></td><td></td></tr>
+    <tr><td>IC3</td><td>1</td><td>MS561101BA03-50</td><td>Xavier_IO_Lib:MS561101BA03-50</td><td>Xavier_NX_IO_Shield:MS561101BA03-50</td><td></td><td></td></tr>
+    <tr><td>IC4</td><td>1</td><td>24LC64T-I_MC</td><td>Xavier_IO_Lib:24LC64T-I_MC</td><td>Xavier_NX_IO_Shield:24LC64T</td><td></td><td></td></tr>
+    <tr><td>IC5, IC6, IC7</td><td>3</td><td>TJA1051TK_3,118</td><td>Xavier_IO_Lib:TJA1051TK_3,118</td><td>Xavier_NX_IO_Shield:TJA1051TK3</td><td></td><td></td></tr>
+    <tr><td>IC8, IC9, IC10</td><td>3</td><td>SN74AXC4T774QPWRQ1</td><td>Xavier_IO_Lib:SN74AXC4T774QPWRQ1</td><td>Xavier_NX_IO_Shield:SN74AXC4T774QPWRQ1</td><td></td><td></td></tr>
+    <tr><td>IC11</td><td>1</td><td>SN74LVC2T45DCUR</td><td>Xavier_IO_Lib:SN74LVC2T45DCUR</td><td>Xavier_NX_IO_Shield:SN74LVC2T45DCUR</td><td></td><td></td></tr>
+    <tr><td>IC12</td><td>1</td><td>DP83848TSQ_NOPB</td><td>Xavier_IO_Lib:DP83848TSQ_NOPB</td><td>Xavier_NX_IO_Shield:DP83848TSQ</td><td></td><td></td></tr>
+    <tr><td>J1, J2</td><td>2</td><td>DF40C-50DP-0.4V(51)</td><td>Connector_Generic:Conn_02x25_Odd_Even</td><td>Xavier_NX_IO_Shield:DF40C50DP04V51</td><td>Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>DF40C-100DP-0.4V_51_</td><td>Xavier_IO_Lib:DF40C-100DP-0.4V_51_</td><td>Xavier_NX_IO_Shield:DF40C100DP04V51</td><td></td><td></td></tr>
+    <tr><td>J4, J5</td><td>2</td><td>47346-0001</td><td>Xavier_IO_Lib:47346-0001</td><td>Xavier_NX_IO_Shield:MOLEX_47346-0001</td><td></td><td></td></tr>
+    <tr><td>J6, J7, J22, J31</td><td>4</td><td>BM07B-GHS-TBT(LF)(SN)</td><td>Xavier_IO_Lib:BM07B-GHS-TBT(LF)(SN)</td><td>Xavier_NX_IO_Shield:BM07B-GHS-TBT(LF)(SN)</td><td></td><td></td></tr>
+    <tr><td>J8, J13, J14, J23, J24, J25</td><td>6</td><td>BM06B-GHS-TBT(LF)(SN)(N)</td><td>Xavier_IO_Lib:BM06B-GHS-TBT(LF)(SN)(N)</td><td>Xavier_NX_IO_Shield:BM06B-GHS-TBT(LF)(SN)(N)</td><td></td><td></td></tr>
+    <tr><td>J9, J10, J11, J20, J21, J27, J30</td><td>7</td><td>BM04B-GHS-TBT(LF)(SN)(N)</td><td>Xavier_IO_Lib:BM04B-GHS-TBT(LF)(SN)(N)</td><td>Xavier_NX_IO_Shield:BM04B-GHS-TBT(LF)(SN)(N)</td><td></td><td></td></tr>
+    <tr><td>J12</td><td>1</td><td>Conn_01x03_Male</td><td>Connector:Conn_01x03_Male</td><td>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J15, J19, J26</td><td>3</td><td>BM10B-GHS-TBT(LF)(SN)(N)</td><td>Xavier_IO_Lib:BM10B-GHS-TBT(LF)(SN)(N)</td><td>Xavier_NX_IO_Shield:BM10B-GHS-TBT(LF)(SN)(N)</td><td></td><td></td></tr>
+    <tr><td>J16, J18</td><td>2</td><td>BM03B-GHS-TBT</td><td>Xavier_IO_Lib:BM03B-GHS-TBT</td><td>Xavier_NX_IO_Shield:BM03B-GHS-TBT</td><td></td><td></td></tr>
+    <tr><td>J17</td><td>1</td><td>BM05B-GHS-TBT(LF)(SN)(N)</td><td>Xavier_IO_Lib:BM05B-GHS-TBT(LF)(SN)(N)</td><td>Xavier_NX_IO_Shield:BM05B-GHS-TBT</td><td></td><td></td></tr>
+    <tr><td>J28, J29</td><td>2</td><td>‎M50-3600542R‎</td><td>Connector_Generic:Conn_02x05_Odd_Even</td><td>Xavier_NX_IO_Shield:M503600542</td><td>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>L1, L2</td><td>2</td><td>BLM18SG121TN1D</td><td>Device:L</td><td>Inductor_SMD:L_0603_1608Metric</td><td>Inductor</td><td></td></tr>
+    <tr><td>Q1</td><td>1</td><td>AO3400A</td><td>Device:Q_NMOS_GSD</td><td>Package_TO_SOT_SMD:SOT-23</td><td>N-MOSFET transistor, gate/source/drain</td><td></td></tr>
+    <tr><td>R1, R4, R48, R49, R50, R54</td><td>6</td><td>22</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>CRCW040222R0FKEDC</td></tr>
+    <tr><td>R2</td><td>1</td><td>21k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>CRCW040221K0FKED</td></tr>
+    <tr><td>R3, R6, R9, R14, R30, R52</td><td>6</td><td>10K</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>ERJ-2RKF1002X</td></tr>
+    <tr><td>R5, R7, R8, R10</td><td>4</td><td>0</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>RC0402JR-070RL</td></tr>
+    <tr><td>R11, R12, R13, R15, R16, R17, R31, R32</td><td>8</td><td>220</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>RC0402JR-07220RL</td></tr>
+    <tr><td>R18, R24, R36</td><td>3</td><td>4.7k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>RC0402FR-074K7L</td></tr>
+    <tr><td>R19, R20, R21, R25, R26, R27, R37, R38, R39, R44, R59</td><td>11</td><td>0</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>CRCW04020000Z0EDHP</td></tr>
+    <tr><td>R22, R23, R28, R29, R40, R41</td><td>6</td><td>60.4</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>ERJ-2RKF60R4X‎</td></tr>
+    <tr><td>R33, R34</td><td>2</td><td>68</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>‎ERJ-2RKF68R0X‎</td></tr>
+    <tr><td>R35, R60</td><td>2</td><td>1.5K</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>ERJ-2RKF1501X</td></tr>
+    <tr><td>R42, R43, R45, R46, R61, R62, R64, R65</td><td>8</td><td>2k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>CRCW04022K00FKED</td></tr>
+    <tr><td>R47</td><td>1</td><td>2.2k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>ERJ-2RKF2201X</td></tr>
+    <tr><td>R51, R69, R70, R71, R72, R73, R74, R75</td><td>8</td><td>470</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>CRCW0402470RFKEDC</td></tr>
+    <tr><td>R53, R63, R66</td><td>3</td><td>4.87k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>ERJ-2RKF4871X</td></tr>
+    <tr><td>R55, R56, R57, R58</td><td>4</td><td>49.9</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>ERJ-2RKF49R9X</td></tr>
+    <tr><td>R67, R76</td><td>2</td><td>47k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>RCC040247K0FKED</td></tr>
+    <tr><td>R68, R77</td><td>2</td><td>4.7k</td><td>Device:R</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor</td><td>RCC04024K70FKED</td></tr>
+    <tr><td>S1</td><td>1</td><td>SKRPANE010</td><td>Xavier_IO_Lib:SKRPANE010</td><td>Xavier_NX_IO_Shield:SKRPADE010</td><td></td><td></td></tr>
+    <tr><td>S2, S3</td><td>2</td><td>TDD01H0SB1R</td><td>Xavier_IO_Lib:TDD01H0SB1R</td><td>Xavier_NX_IO_Shield:TDD01H0SB1R</td><td></td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>FT232RQ-REEL</td><td>Xavier_IO_Lib:FT232RQ-REEL</td><td>Xavier_NX_IO_Shield:FT232RQ-REEL</td><td></td><td></td></tr>
+    <tr><td>U2, U3, U4</td><td>3</td><td>TPD2E009DBZR</td><td>Xavier_IO_Lib:TPD2E009DBZR</td><td>Xavier_NX_IO_Shield:TPD2E009DBZR</td><td></td><td></td></tr>
+    <tr><td>U5, U6, U7</td><td>3</td><td>B82789C0513N002</td><td>Xavier_IO_Lib:B82789C0513N002</td><td>Xavier_NX_IO_Shield:B82789C0113N002</td><td></td><td></td></tr>
+    <tr><td>U8</td><td>1</td><td>PCA9517ADP</td><td>Xavier_IO_Lib:PCA9517ADP</td><td>Xavier_NX_IO_Shield:PCA9517ADP</td><td></td><td></td></tr>
+    <tr><td>U9</td><td>1</td><td>TLV70018DCKT</td><td>Xavier_IO_Lib:TLV70018DCKT</td><td>Xavier_NX_IO_Shield:TLV70018DCKT</td><td></td><td></td></tr>
+    <tr><td>Y1</td><td>1</td><td>16MHz</td><td>Device:Crystal_GND24</td><td>Xavier_NX_IO_Shield:NX3225GA16000MSTDCRG1</td><td>Four pin crystal, GND on pins 2 and 4</td><td>NX3225GA-16.000M-STD-CRG-1</td></tr>
+    <tr><td>Y2</td><td>1</td><td>32KHz</td><td>Device:Crystal</td><td>Xavier_NX_IO_Shield:NX3215SA32768KEXS00AMU00003</td><td>Two pin crystal</td><td>NX3215SA-32.768KHZ-EXS00A-MU00525</td></tr>
+    <tr><td>Y3</td><td>1</td><td>SG-210STF_50.0000ML0</td><td>Xavier_IO_Lib:SG-210STF_50.0000ML0</td><td>Xavier_NX_IO_Shield:SG-210STF_50ML0</td><td></td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

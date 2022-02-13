@@ -1,0 +1,664 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 18
+Title "M.2 Schematic"
+Date "2021-02-13"
+Rev "1.0"
+Comp "ApotheoTech"
+Comment1 ""
+Comment2 "Author: Chance Reimer"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Xavier_NX_Lib:MDT580M01001 J6
+U 1 1 60185835
+P 5500 3050
+F 0 "J6" H 5040 4140 50  0000 C CNN
+F 1 "MDT580M01001" H 5290 4220 50  0000 C CNN
+F 2 "Xavier_NX_Carrier_Board:MDT580M01001" H 9250 3350 50  0001 L CNN
+F 3 "https://www.arrow.com/en/products/mdt580m01001/amphenol-fci" H 9250 3250 50  0001 L CNN
+F 4 "PCI Express / PCI Connectors" H 9250 3150 50  0001 L CNN "Description"
+F 5 "5.8" H 9250 3050 50  0001 L CNN "Height"
+F 6 "649-MDT580M01001" H 9250 2950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/MDT580M01001/?qs=ouNmo%2FJCrDBNzgGn7ixGyg%3D%3D" H 9250 2850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Amphenol" H 9250 2750 50  0001 L CNN "Manufacturer_Name"
+F 9 "MDT580M01001" H 9250 2650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5500 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2050 4700 2050
+Wire Wire Line
+	4700 2050 4700 2150
+Wire Wire Line
+	4700 2150 4800 2150
+Wire Wire Line
+	4800 2250 4700 2250
+Wire Wire Line
+	4700 2250 4700 2150
+Connection ~ 4700 2150
+Wire Wire Line
+	4800 2550 4700 2550
+Wire Wire Line
+	4700 2550 4700 2250
+Connection ~ 4700 2250
+Wire Wire Line
+	4800 2850 4700 2850
+Wire Wire Line
+	4700 2850 4700 2550
+Connection ~ 4700 2550
+Wire Wire Line
+	4800 3150 4700 3150
+Wire Wire Line
+	4700 3150 4700 2850
+Connection ~ 4700 2850
+Wire Wire Line
+	4800 3450 4700 3450
+Wire Wire Line
+	4700 3450 4700 3150
+Connection ~ 4700 3150
+Wire Wire Line
+	4800 3750 4700 3750
+Wire Wire Line
+	4700 3750 4700 3450
+Connection ~ 4700 3450
+Wire Wire Line
+	4800 4050 4700 4050
+Wire Wire Line
+	4700 4050 4700 3750
+Connection ~ 4700 3750
+Wire Wire Line
+	4800 4350 4700 4350
+Connection ~ 4700 4050
+Wire Wire Line
+	4800 4650 4700 4650
+Wire Wire Line
+	4700 4050 4700 4350
+Connection ~ 4700 4350
+Wire Wire Line
+	4700 4350 4700 4650
+Wire Wire Line
+	4800 4950 4700 4950
+Wire Wire Line
+	4700 4950 4700 4650
+Connection ~ 4700 4650
+Wire Wire Line
+	4800 5250 4700 5250
+Wire Wire Line
+	4700 5250 4700 4950
+Connection ~ 4700 4950
+Wire Wire Line
+	4800 5350 4700 5350
+Wire Wire Line
+	4700 5350 4700 5250
+Connection ~ 4700 5250
+Wire Wire Line
+	4800 5550 4700 5550
+Wire Wire Line
+	4700 5550 4700 5350
+Connection ~ 4700 5350
+Wire Wire Line
+	4700 5550 4700 5810
+Connection ~ 4700 5550
+Wire Wire Line
+	6200 2150 6300 2150
+Wire Wire Line
+	6300 2150 6300 2250
+Wire Wire Line
+	6300 2250 6200 2250
+Wire Wire Line
+	6200 2350 6300 2350
+Wire Wire Line
+	6300 2350 6300 2250
+Connection ~ 6300 2250
+Wire Wire Line
+	6300 2150 6300 2000
+Connection ~ 6300 2150
+$Comp
+L power:+3.3V #PWR074
+U 1 1 601B530A
+P 6300 2000
+F 0 "#PWR074" H 6300 1850 50  0001 C CNN
+F 1 "+3.3V" H 6315 2173 50  0000 C CNN
+F 2 "" H 6300 2000 50  0001 C CNN
+F 3 "" H 6300 2000 50  0001 C CNN
+	1    6300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR073
+U 1 1 601B6DB7
+P 4700 5810
+F 0 "#PWR073" H 4700 5560 50  0001 C CNN
+F 1 "GND" H 4705 5637 50  0000 C CNN
+F 2 "" H 4700 5810 50  0001 C CNN
+F 3 "" H 4700 5810 50  0001 C CNN
+	1    4700 5810
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6200 2450
+Text HLabel 3100 2650 0    50   BiDi ~ 0
+PCIE0_CLK_P
+Text HLabel 3100 2750 0    50   BiDi ~ 0
+PCIE0_CLK_N
+Wire Wire Line
+	6300 5550 6300 5810
+$Comp
+L power:GND #PWR075
+U 1 1 601BC988
+P 6300 5810
+F 0 "#PWR075" H 6300 5560 50  0001 C CNN
+F 1 "GND" H 6305 5637 50  0000 C CNN
+F 2 "" H 6300 5810 50  0001 C CNN
+F 3 "" H 6300 5810 50  0001 C CNN
+	1    6300 5810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5550 6300 5550
+Wire Wire Line
+	6200 5350 6300 5350
+Wire Wire Line
+	6300 5350 6300 5250
+Wire Wire Line
+	6300 5250 6200 5250
+Wire Wire Line
+	6300 5250 6300 4850
+Wire Wire Line
+	6300 4850 6200 4850
+Connection ~ 6300 5250
+Wire Wire Line
+	6300 4850 6300 4750
+Wire Wire Line
+	6300 4750 6200 4750
+Connection ~ 6300 4850
+Wire Wire Line
+	6300 4750 6300 4650
+Wire Wire Line
+	6300 4650 6200 4650
+Connection ~ 6300 4750
+Wire Wire Line
+	6300 4650 6300 4550
+Wire Wire Line
+	6300 4550 6200 4550
+Connection ~ 6300 4650
+Wire Wire Line
+	6300 4550 6300 2350
+Connection ~ 6300 4550
+Connection ~ 6300 2350
+$Comp
+L Device:R R38
+U 1 1 601C2AC6
+P 6600 2350
+F 0 "R38" H 6670 2441 50  0000 L CNN
+F 1 "10K" H 6670 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6530 2350 50  0001 C CNN
+F 3 "~" H 6600 2350 50  0001 C CNN
+F 4 "RC0402FR-7W10KL" H 6600 2350 50  0001 C CNN "PartNumber"
+F 5 "1%" H 6670 2259 50  0000 L CNN "Tol"
+	1    6600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R40
+U 1 1 601C5B51
+P 6900 2350
+F 0 "R40" H 6970 2441 50  0000 L CNN
+F 1 "10K" H 6970 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6830 2350 50  0001 C CNN
+F 3 "~" H 6900 2350 50  0001 C CNN
+F 4 "RC0402FR-7W10KL" H 6900 2350 50  0001 C CNN "PartNumber"
+F 5 "1%" H 6970 2259 50  0000 L CNN "Tol"
+	1    6900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R41
+U 1 1 601C6FBD
+P 7200 2350
+F 0 "R41" H 7270 2441 50  0000 L CNN
+F 1 "10K" H 7270 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 2350 50  0001 C CNN
+F 3 "~" H 7200 2350 50  0001 C CNN
+F 4 "RC0402FR-7W10KL" H 7200 2350 50  0001 C CNN "PartNumber"
+F 5 "1%" H 7270 2259 50  0000 L CNN "Tol"
+	1    7200 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2200 6600 2000
+$Comp
+L power:+3.3V #PWR076
+U 1 1 601C8E58
+P 6600 2000
+F 0 "#PWR076" H 6600 1850 50  0001 C CNN
+F 1 "+3.3V" H 6615 2173 50  0000 C CNN
+F 2 "" H 6600 2000 50  0001 C CNN
+F 3 "" H 6600 2000 50  0001 C CNN
+	1    6600 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2200 6900 2000
+$Comp
+L power:+3.3V #PWR078
+U 1 1 601CA2FD
+P 6900 2000
+F 0 "#PWR078" H 6900 1850 50  0001 C CNN
+F 1 "+3.3V" H 6915 2173 50  0000 C CNN
+F 2 "" H 6900 2000 50  0001 C CNN
+F 3 "" H 6900 2000 50  0001 C CNN
+	1    6900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR079
+U 1 1 601CCD3B
+P 7200 2000
+F 0 "#PWR079" H 7200 1850 50  0001 C CNN
+F 1 "+1V8" H 7215 2173 50  0000 C CNN
+F 2 "" H 7200 2000 50  0001 C CNN
+F 3 "" H 7200 2000 50  0001 C CNN
+	1    7200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2750 7600 2750
+Wire Wire Line
+	6200 2850 6600 2850
+Wire Wire Line
+	6200 2950 6900 2950
+Wire Wire Line
+	6200 3250 7200 3250
+Wire Wire Line
+	6600 2850 6600 2500
+Connection ~ 6600 2850
+Wire Wire Line
+	6600 2850 7600 2850
+Wire Wire Line
+	6900 2950 6900 2500
+Connection ~ 6900 2950
+Wire Wire Line
+	6900 2950 7600 2950
+Wire Wire Line
+	7200 3250 7200 2500
+Connection ~ 7200 3250
+Wire Wire Line
+	7200 3250 7600 3250
+Text HLabel 3100 2950 0    50   Input ~ 0
+PCIE0_TX0_P
+Text HLabel 3100 3050 0    50   Input ~ 0
+PCIE0_TX0_N
+Text HLabel 7600 2750 2    50   Input ~ 0
+PEWAKE_3V3
+Text HLabel 7600 2850 2    50   Input ~ 0
+PEX_L0_CLKREQ_N
+Text HLabel 7600 2950 2    50   Input ~ 0
+PEX_L0_RST_N
+Text HLabel 7600 3250 2    50   Input ~ 0
+M2_ALERT
+NoConn ~ 6200 3350
+NoConn ~ 6200 3450
+$Comp
+L Device:C C41
+U 1 1 601DEA5D
+P 3850 2950
+F 0 "C41" V 3890 3110 50  0000 C CNN
+F 1 "0.1uF" V 3890 2800 50  0000 C CNN
+F 2 "Xavier_NX_Carrier_Board:C_0402_1005Metric_smaller_footprint" H 3888 2800 50  0001 C CNN
+F 3 "~" H 3850 2950 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3850 2950 50  0001 C CNN "PartNumber"
+F 5 "10" H 3850 2950 50  0001 C CNN "Tol"
+F 6 "6.3V" V 3800 2820 50  0000 C CNN "Voltage"
+	1    3850 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 2950 3700 2950
+Wire Wire Line
+	3320 3050 3100 3050
+Text HLabel 3100 3250 0    50   Input ~ 0
+PCIE0_RX0_P
+Text HLabel 3100 3350 0    50   Input ~ 0
+PCIE0_RX0_N
+Text HLabel 3100 3850 0    50   Input ~ 0
+PCIE0_RX1_P
+Text HLabel 3100 3950 0    50   Input ~ 0
+PCIE0_RX1_N
+Text HLabel 3100 4450 0    50   Input ~ 0
+PCIE0_RX2_P
+Text HLabel 3100 4550 0    50   Input ~ 0
+PCIE0_RX2_N
+Text HLabel 3100 5050 0    50   Input ~ 0
+PCIE0_RX3_P
+Text HLabel 3100 5150 0    50   Input ~ 0
+PCIE0_RX3_N
+Wire Wire Line
+	3100 2650 4800 2650
+Wire Wire Line
+	3100 2750 4800 2750
+Wire Wire Line
+	4000 2950 4800 2950
+Wire Wire Line
+	3620 3050 4800 3050
+Wire Wire Line
+	3100 3250 4800 3250
+Wire Wire Line
+	3100 3350 4800 3350
+Wire Wire Line
+	3100 3850 4800 3850
+Wire Wire Line
+	3100 3950 4800 3950
+Wire Wire Line
+	3100 4450 4800 4450
+Wire Wire Line
+	3100 4550 4800 4550
+Wire Wire Line
+	3100 5050 4800 5050
+Wire Wire Line
+	3100 5150 4800 5150
+Text HLabel 3100 3550 0    50   Input ~ 0
+PCIE0_TX1_P
+Text HLabel 3100 3650 0    50   Input ~ 0
+PCIE0_TX1_N
+Wire Wire Line
+	3100 3550 3700 3550
+Wire Wire Line
+	3320 3650 3100 3650
+Wire Wire Line
+	4000 3550 4800 3550
+Wire Wire Line
+	3620 3650 4800 3650
+Text HLabel 3100 4150 0    50   Input ~ 0
+PCIE0_TX2_P
+Text HLabel 3100 4250 0    50   Input ~ 0
+PCIE0_TX2_N
+Wire Wire Line
+	3100 4150 3700 4150
+Wire Wire Line
+	3320 4250 3100 4250
+Wire Wire Line
+	4000 4150 4800 4150
+Wire Wire Line
+	3620 4250 4800 4250
+Text HLabel 3100 4750 0    50   Input ~ 0
+PCIE0_TX3_P
+Text HLabel 3100 4850 0    50   Input ~ 0
+PCIE0_TX3_N
+Wire Wire Line
+	3100 4750 3700 4750
+Wire Wire Line
+	3320 4850 3100 4850
+Wire Wire Line
+	4000 4750 4800 4750
+Wire Wire Line
+	3620 4850 4800 4850
+$Comp
+L Device:C C37
+U 1 1 6022CE28
+P 3470 3050
+F 0 "C37" V 3510 3210 50  0000 C CNN
+F 1 "0.1uF" V 3510 2900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3508 2900 50  0001 C CNN
+F 3 "~" H 3470 3050 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3470 3050 50  0001 C CNN "PartNumber"
+F 5 "10" H 3470 3050 50  0001 C CNN "Tol"
+F 6 "6.3V" V 3420 2920 50  0000 C CNN "Voltage"
+	1    3470 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C42
+U 1 1 6023E41D
+P 3850 3550
+F 0 "C42" V 3890 3710 50  0000 C CNN
+F 1 "0.1uF" V 3890 3400 50  0000 C CNN
+F 2 "Xavier_NX_Carrier_Board:C_0402_1005Metric_smaller_footprint" H 3888 3400 50  0001 C CNN
+F 3 "~" H 3850 3550 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3850 3550 50  0001 C CNN "PartNumber"
+F 5 "10" H 3850 3550 50  0001 C CNN "Tol"
+F 6 "6.3V" V 3800 3420 50  0000 C CNN "Voltage"
+	1    3850 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 60240EC1
+P 3470 3650
+F 0 "C38" V 3510 3810 50  0000 C CNN
+F 1 "0.1uF" V 3510 3500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3508 3500 50  0001 C CNN
+F 3 "~" H 3470 3650 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3470 3650 50  0001 C CNN "PartNumber"
+F 5 "10" H 3470 3650 50  0001 C CNN "Tol"
+F 6 "6.3V" V 3420 3520 50  0000 C CNN "Voltage"
+	1    3470 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C43
+U 1 1 60243B02
+P 3850 4150
+F 0 "C43" V 3890 4310 50  0000 C CNN
+F 1 "0.1uF" V 3890 4000 50  0000 C CNN
+F 2 "Xavier_NX_Carrier_Board:C_0402_1005Metric_smaller_footprint" H 3888 4000 50  0001 C CNN
+F 3 "~" H 3850 4150 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3850 4150 50  0001 C CNN "PartNumber"
+F 5 "10" H 3850 4150 50  0001 C CNN "Tol"
+F 6 "6.3V" V 3800 4020 50  0000 C CNN "Voltage"
+	1    3850 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 602468E9
+P 3470 4250
+F 0 "C39" V 3510 4410 50  0000 C CNN
+F 1 "0.1uF" V 3510 4100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3508 4100 50  0001 C CNN
+F 3 "~" H 3470 4250 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3470 4250 50  0001 C CNN "PartNumber"
+F 5 "10" H 3470 4250 50  0001 C CNN "Tol"
+F 6 "6.3V" V 3420 4120 50  0000 C CNN "Voltage"
+	1    3470 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C44
+U 1 1 60249342
+P 3850 4750
+F 0 "C44" V 3890 4910 50  0000 C CNN
+F 1 "0.1uF" V 3890 4600 50  0000 C CNN
+F 2 "Xavier_NX_Carrier_Board:C_0402_1005Metric_smaller_footprint" H 3888 4600 50  0001 C CNN
+F 3 "~" H 3850 4750 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3850 4750 50  0001 C CNN "PartNumber"
+F 5 "10" H 3850 4750 50  0001 C CNN "Tol"
+F 6 "6.3V" V 3800 4620 50  0000 C CNN "Voltage"
+	1    3850 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C40
+U 1 1 6024BE15
+P 3470 4850
+F 0 "C40" V 3510 5010 50  0000 C CNN
+F 1 "0.1uF" V 3510 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3508 4700 50  0001 C CNN
+F 3 "~" H 3470 4850 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 3470 4850 50  0001 C CNN "PartNumber"
+F 5 "10" H 3470 4850 50  0001 C CNN "Tol"
+F 6 "6.3V" V 3420 4720 50  0000 C CNN "Voltage"
+	1    3470 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 4950 6600 4900
+$Comp
+L Device:R R39
+U 1 1 60251548
+P 6600 4410
+F 0 "R39" H 6670 4501 50  0000 L CNN
+F 1 "220" H 6670 4410 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6530 4410 50  0001 C CNN
+F 3 "~" H 6600 4410 50  0001 C CNN
+F 4 "RC0402JR-07220RL" H 6600 4410 50  0001 C CNN "PartNumber"
+F 5 "5%" H 6670 4319 50  0000 L CNN "Tol"
+	1    6600 4410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4950 6600 4950
+$Comp
+L Device:LED D6
+U 1 1 6025B8CE
+P 6600 4750
+F 0 "D6" V 6639 4632 50  0000 R CNN
+F 1 "APT1608SGC" V 6548 4632 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6600 4750 50  0001 C CNN
+F 3 "~" H 6600 4750 50  0001 C CNN
+	1    6600 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 4600 6600 4560
+Wire Wire Line
+	6600 4260 6600 4200
+$Comp
+L power:+3.3V #PWR077
+U 1 1 60265E1E
+P 6600 4200
+F 0 "#PWR077" H 6600 4050 50  0001 C CNN
+F 1 "+3.3V" H 6615 4373 50  0000 C CNN
+F 2 "" H 6600 4200 50  0001 C CNN
+F 3 "" H 6600 4200 50  0001 C CNN
+	1    6600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C45
+U 1 1 6026C4E1
+P 9000 2250
+F 0 "C45" H 8820 2200 50  0000 C CNN
+F 1 "0.1uF" H 8790 2270 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9038 2100 50  0001 C CNN
+F 3 "~" H 9000 2250 50  0001 C CNN
+F 4 "C1005X5R0J104K050BA" H 9000 2250 50  0001 C CNN "PartNumber"
+F 5 "10" H 9000 2250 50  0001 C CNN "Tol"
+F 6 "6.3V" H 8810 2350 50  0000 C CNN "Voltage"
+	1    9000 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 2400 9000 2500
+Wire Wire Line
+	9000 2100 9000 2000
+Wire Wire Line
+	9500 2000 9500 2100
+$Comp
+L power:GND #PWR080
+U 1 1 60278208
+P 9000 2500
+F 0 "#PWR080" H 9000 2250 50  0001 C CNN
+F 1 "GND" H 9005 2327 50  0000 C CNN
+F 2 "" H 9000 2500 50  0001 C CNN
+F 3 "" H 9000 2500 50  0001 C CNN
+	1    9000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C46
+U 1 1 6027A93C
+P 9500 2250
+F 0 "C46" H 9310 2200 50  0000 C CNN
+F 1 "10uF" H 9290 2270 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9538 2100 50  0001 C CNN
+F 3 "~" H 9500 2250 50  0001 C CNN
+F 4 "06036D106MAT2A" H 9500 2250 50  0001 C CNN "PartNumber"
+F 5 "20" H 9500 2250 50  0001 C CNN "Tol"
+F 6 "6.3V" H 9310 2350 50  0000 C CNN "Voltage"
+	1    9500 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 2400 9500 2500
+$Comp
+L power:GND #PWR083
+U 1 1 6027A943
+P 9500 2500
+F 0 "#PWR083" H 9500 2250 50  0001 C CNN
+F 1 "GND" H 9505 2327 50  0000 C CNN
+F 2 "" H 9500 2500 50  0001 C CNN
+F 3 "" H 9500 2500 50  0001 C CNN
+	1    9500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR081
+U 1 1 6027DFA3
+P 9250 1900
+F 0 "#PWR081" H 9250 1750 50  0001 C CNN
+F 1 "+3.3V" H 9265 2073 50  0000 C CNN
+F 2 "" H 9250 1900 50  0001 C CNN
+F 3 "" H 9250 1900 50  0001 C CNN
+	1    9250 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2000 9250 2000
+Wire Wire Line
+	9250 2000 9250 1900
+Connection ~ 9250 2000
+Wire Wire Line
+	9250 2000 9500 2000
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 602944E5
+P 9100 3600
+F 0 "H1" V 9337 3603 50  0000 C CNN
+F 1 "9774040151" V 9246 3603 50  0000 C CNN
+F 2 "Xavier_NX_Carrier_Board:9774040151R_Standoff" H 9100 3600 50  0001 C CNN
+F 3 "~" H 9100 3600 50  0001 C CNN
+F 4 "9774040151" V 9100 3600 50  0001 C CNN "Field4"
+	1    9100 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR082
+U 1 1 60297651
+P 9400 3600
+F 0 "#PWR082" H 9400 3350 50  0001 C CNN
+F 1 "GND" H 9405 3427 50  0000 C CNN
+F 2 "" H 9400 3600 50  0001 C CNN
+F 3 "" H 9400 3600 50  0001 C CNN
+	1    9400 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 3600 9400 3600
+Text Notes 2400 2540 0    50   ~ 0
+Note, Diff pair impedance is 85 Ohms for PCIe lanes
+Wire Wire Line
+	7200 2000 7200 2200
+Text Notes 1490 5550 0    50   ~ 0
+Refer to page 194 of 250 of PCI Express M.2 Specification \nRevision 3.0, Version 1.2 for pinout of device
+Text Label 4200 2950 0    50   ~ 0
+PCIE0_C_TX0_P
+Text Label 4200 3050 0    50   ~ 0
+PCIE0_C_TX0_N
+Text Label 4200 3550 0    50   ~ 0
+PCIE0_C_TX1_P
+Text Label 4200 3650 0    50   ~ 0
+PCIE0_C_TX1_N
+Text Label 4200 4150 0    50   ~ 0
+PCIE0_C_TX2_P
+Text Label 4200 4250 0    50   ~ 0
+PCIE0_C_TX2_N
+Text Label 4200 4750 0    50   ~ 0
+PCIE0_C_TX3_P
+Text Label 4200 4850 0    50   ~ 0
+PCIE0_C_TX3_N
+$EndSCHEMATC

@@ -1,0 +1,80 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2908-05WB-MG
+F https://componentsearchengine.com/Datasheets/1/2908-05WB-MG.pdf
+$ENDCMP
+#
+$CMP 505405-0670
+F https://componentsearchengine.com/Datasheets/1/505405-0670.pdf
+$ENDCMP
+#
+$CMP 54548-2271
+F http://www.molex.com/webdocs/datasheets/pdf/en-us//0545482271_FFC_FPC_CONNECTORS.pdf
+$ENDCMP
+#
+$CMP 68715014022
+F http://katalog.we-online.com/em/datasheet/6871xx14022.pdf
+$ENDCMP
+#
+$CMP ABM8G-25.000MHZ-4Y-T3
+F https://abracon.com/Resonators/ABM8G.pdf
+$ENDCMP
+#
+$CMP BMP388
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP388-DS001-01.pdf
+$ENDCMP
+#
+$CMP CM1624-08DE
+F http://www.onsemi.com/pub/Collateral/CM1624-D.PDF
+$ENDCMP
+#
+$CMP DF40HC_3.0_-100DS-0.4V_58
+F https://componentsearchengine.com/Datasheets/1/DF40HC(3.0)-100DS-0.4V(58.pdf
+$ENDCMP
+#
+$CMP ICM-20602
+F https://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf
+$ENDCMP
+#
+$CMP MDT580M01001
+D PCI Express / PCI Connectors
+F https://www.arrow.com/en/products/mdt580m01001/amphenol-fci
+$ENDCMP
+#
+$CMP PJ-002AH
+F https://componentsearchengine.com/Datasheets/1/PJ-002AH.pdf
+$ENDCMP
+#
+$CMP SFW15R-2STE1LF
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/sfw12lf.pdf
+$ENDCMP
+#
+$CMP SKRPANE010
+F https://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRP/SKRPANE010.html
+$ENDCMP
+#
+$CMP SN74AXC4T774QPWRQ1
+F https://www.ti.com/lit/gpn/SN74AXC4T774-Q1
+$ENDCMP
+#
+$CMP STM32F405RGT6TR
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00037051.pdf
+$ENDCMP
+#
+$CMP STM32H753IIT6
+F https://www.st.com/resource/en/datasheet/stm32h753ii.pdf
+$ENDCMP
+#
+$CMP TCA9548ARGER
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TCA9548A&&fileType=pdf
+$ENDCMP
+#
+$CMP TDD01H0SB1R
+F https://componentsearchengine.com/Datasheets/1/TDD01H0SB1R.pdf
+$ENDCMP
+#
+$CMP TL3340AF160QG
+F https://www.e-switch.com/system/asset/product_line/data_sheet/164/TL3340.pdf
+$ENDCMP
+#
+#End Doc Library

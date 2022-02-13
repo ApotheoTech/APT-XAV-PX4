@@ -1,0 +1,17 @@
+(module 9774015151R (layer F.Cu) (tedit 603D68E4)
+  (fp_text reference REF** (at 0.3 3.99) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 9774015151R (at -0.11 -4.06) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user "Refer to page 7 of datasheet for Footprint" (at -0.01 9.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers *.Cu *.Mask))
+  (model "${KIPRJMOD}/3d_models/9774015151R (rev1).stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

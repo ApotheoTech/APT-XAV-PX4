@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 24LC64T-I_MC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21189T.pdf
+$ENDCMP
+#
+$CMP BM03B-GHS-TBT
+F http://www.jst-mfg.com/product/pdf/eng/eGH.pdf
+$ENDCMP
+#
+$CMP DF40C-100DP-0.4V_51_
+F https://www.hirose.com/product/en/download_file/key_name/DF40C-100DP-0.4V%2851%29/category/Drawing%20(2D)/doc_file_id/46850/?file_category_id=6&item_id=06844032151&is_series=
+$ENDCMP
+#
+$CMP DLW43MH201XK2L
+F https://www.murata.com/en-us/products/productdetail?partno=DLW43MH201XK2%23
+$ENDCMP
+#
+$CMP DP83848TSQ_NOPB
+F http://www.ti.com/lit/gpn/dp83848t
+$ENDCMP
+#
+$CMP ESD7104MUTAG
+F http://www.onsemi.com/pub/Collateral/ESD7104-D.PDF
+$ENDCMP
+#
+$CMP MS561101BA03-50
+F http://www.te.com/usa-en/search.html?q=ms5611&source=header
+$ENDCMP
+#
+$CMP NFM18PC104R1C3D
+F https://psearch.en.murata.com/capacitor/product/NFM18PC104R1C3%23.html
+$ENDCMP
+#
+$CMP SN74AXC4T774QPWRQ1
+F https://www.ti.com/lit/gpn/SN74AXC4T774-Q1
+$ENDCMP
+#
+$CMP SN74LVC2GU04DCKR
+F http://www.ti.com/lit/gpn/sn74lvc2gu04
+$ENDCMP
+#
+$CMP SN74LVC2T45DCUR
+F http://www.ti.com/lit/gpn/sn74lvc2t45
+$ENDCMP
+#
+$CMP TJA1051TK_3,118
+F http://www.nxp.com/docs/en/data-sheet/TJA1051.pdf
+$ENDCMP
+#
+#End Doc Library

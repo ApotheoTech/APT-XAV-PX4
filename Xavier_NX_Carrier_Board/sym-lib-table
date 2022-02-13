@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Xavier_NX_Lib)(type Legacy)(uri ${KIPRJMOD}/Xavier_NX_Lib.lib)(options "")(descr ""))
+  (lib (name Xavier_NX_Carrier_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Xavier_NX_Carrier_Board-rescue.lib)(options "")(descr ""))
+)

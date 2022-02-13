@@ -1,0 +1,8 @@
+(module TC2030 (layer F.Cu) (tedit 605934FF)
+  (fp_text reference REF** (at -0.02 8.81) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TC2030 (at -0.02 -6.78) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

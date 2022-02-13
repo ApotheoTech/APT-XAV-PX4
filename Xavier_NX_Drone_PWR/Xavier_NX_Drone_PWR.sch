@@ -1,0 +1,957 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 10
+Title "Top Drone Power"
+Date "2021-02-13"
+Rev "1.0"
+Comp "ApotheoTech LLC"
+Comment1 "Author: Chance Reimer"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Xavier_PWR:505405-0670 J1
+U 1 1 60C7B111
+P 1800 1100
+F 0 "J1" H 2250 1365 50  0000 C CNN
+F 1 "505405-0670" H 2250 1274 50  0000 C CNN
+F 2 "Xavier_NX_Drone_PWR:5054050670" H 2550 1200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/505405-0670.pdf" H 2550 1100 50  0001 L CNN
+F 4 "Headers & Wire Housings 1.5 CLIKMate REC WB 6CKT VRT SR GLD PLTG" H 2550 1000 50  0001 L CNN "Description"
+F 5 "6.35" H 2550 900 50  0001 L CNN "Height"
+F 6 "538-505405-0670" H 2550 800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505405-0670?qs=eKig3M7YXu%252B%252BB9S4VwyG6w%3D%3D" H 2550 700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 2550 600 50  0001 L CNN "Manufacturer_Name"
+F 9 "505405-0670" H 2550 500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xavier_PWR:BM07B-GHS-TBT(LF)(SN) J7
+U 1 1 60C7FB61
+P 9810 1440
+F 0 "J7" H 10040 1436 50  0000 L CNN
+F 1 "BM07B-GHS-TBT(LF)(SN)" H 10040 1345 50  0000 L CNN
+F 2 "Xavier_NX_Drone_PWR:BM07B-GHS-TBT(LF)(SN)" H 9810 1390 50  0001 L BNN
+F 3 "" H 9810 1390 50  0001 L BNN
+F 4 "NA" H 9810 1390 50  0001 L BNN "PARTREV"
+F 5 "MANUFACTURER STANDARD" H 9810 1390 50  0001 L BNN "STANDARD"
+F 6 "JST" H 9810 1390 50  0001 L BNN "MANUFACTURER"
+	1    9810 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xavier_PWR:BM10B-GHS-TBT(LF)(SN)(N) J5
+U 1 1 60C81E7C
+P 9710 3350
+F 0 "J5" H 10040 3346 50  0000 L CNN
+F 1 "BM10B-GHS-TBT(LF)(SN)(N)" H 10040 3255 50  0000 L CNN
+F 2 "Xavier_NX_Drone_PWR:BM10B-GHS-TBT(LF)(SN)(N)" H 9710 3350 50  0001 L BNN
+F 3 "" H 9710 3350 50  0001 L BNN
+F 4 "4.2mm" H 9710 3350 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "Manufacturer Recommendations" H 9710 3350 50  0001 L BNN "STANDARD"
+F 6 "N/A" H 9710 3350 50  0001 L BNN "PARTREV"
+F 7 "JST" H 9710 3350 50  0001 L BNN "MANUFACTURER"
+	1    9710 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xavier_PWR:BM10B-GHS-TBT(LF)(SN)(N) J6
+U 1 1 60C832CA
+P 9710 5340
+F 0 "J6" H 10040 5336 50  0000 L CNN
+F 1 "BM10B-GHS-TBT(LF)(SN)(N)" H 10040 5245 50  0000 L CNN
+F 2 "Xavier_NX_Drone_PWR:BM10B-GHS-TBT(LF)(SN)(N)" H 9710 5340 50  0001 L BNN
+F 3 "" H 9710 5340 50  0001 L BNN
+F 4 "4.2mm" H 9710 5340 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "Manufacturer Recommendations" H 9710 5340 50  0001 L BNN "STANDARD"
+F 6 "N/A" H 9710 5340 50  0001 L BNN "PARTREV"
+F 7 "JST" H 9710 5340 50  0001 L BNN "MANUFACTURER"
+	1    9710 5340
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1200 1700 1100
+Connection ~ 1700 1200
+Wire Wire Line
+	1700 1100 1800 1100
+Wire Wire Line
+	1700 1200 1800 1200
+Wire Wire Line
+	1700 1800 2800 1800
+Wire Wire Line
+	2800 1800 2800 1600
+Wire Wire Line
+	2800 1600 2700 1600
+Wire Wire Line
+	1700 1800 1700 1200
+Wire Wire Line
+	2800 1600 2800 1500
+Wire Wire Line
+	2800 1500 2700 1500
+Connection ~ 2800 1600
+Wire Wire Line
+	2700 1200 2800 1200
+Wire Wire Line
+	2800 1200 2800 1100
+Wire Wire Line
+	2800 1100 2700 1100
+Connection ~ 2800 1100
+Wire Wire Line
+	2800 1100 3100 1100
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 60C97631
+P 1960 3760
+F 0 "J2" H 2040 3752 50  0000 L CNN
+F 1 "Conn_01x02" H 2040 3661 50  0000 L CNN
+F 2 "Xavier_NX_Drone_PWR:BAT_SOLDER_JOINT" H 1960 3760 50  0001 C CNN
+F 3 "~" H 1960 3760 50  0001 C CNN
+	1    1960 3760
+	-1   0    0    -1  
+$EndComp
+Text Notes 1130 770  0    118  ~ 24
+PWR TO CONTROLLER BOARD
+Text Notes 1290 3450 0    118  ~ 24
+LIPO BATTERY IN
+Wire Wire Line
+	2160 3860 2260 3860
+Wire Wire Line
+	2260 3860 2260 4060
+$Comp
+L power:GND #PWR02
+U 1 1 60C9F7CF
+P 2260 4060
+F 0 "#PWR02" H 2260 3810 50  0001 C CNN
+F 1 "GND" H 2265 3887 50  0000 C CNN
+F 2 "" H 2260 4060 50  0001 C CNN
+F 3 "" H 2260 4060 50  0001 C CNN
+	1    2260 4060
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 60CA0321
+P 2360 3760
+F 0 "#FLG01" H 2360 3835 50  0001 C CNN
+F 1 "PWR_FLAG" H 2360 3933 50  0000 C CNN
+F 2 "" H 2360 3760 50  0001 C CNN
+F 3 "~" H 2360 3760 50  0001 C CNN
+	1    2360 3760
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2160 3760 2360 3760
+Wire Wire Line
+	2360 3760 2560 3760
+Connection ~ 2360 3760
+Text GLabel 2560 3760 2    50   Output ~ 0
+VIN
+Text Notes 8020 780  0    118  ~ 24
+CAP AND ADC FROM CONTROLLER
+Text Notes 9200 2670 0    118  ~ 24
+FMU PWM
+Text Notes 9330 4680 0    118  ~ 24
+IO PWM
+Wire Wire Line
+	9210 3750 9110 3750
+Wire Wire Line
+	9110 3750 9110 3840
+Wire Wire Line
+	9110 3950 9210 3950
+Wire Wire Line
+	9110 3950 9110 4150
+Connection ~ 9110 3950
+$Comp
+L power:GND #PWR09
+U 1 1 60CA739A
+P 9110 4150
+F 0 "#PWR09" H 9110 3900 50  0001 C CNN
+F 1 "GND" H 9115 3977 50  0000 C CNN
+F 2 "" H 9110 4150 50  0001 C CNN
+F 3 "" H 9110 4150 50  0001 C CNN
+	1    9110 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9410 1690 9310 1690
+Wire Wire Line
+	9310 1690 9310 1890
+Wire Wire Line
+	9310 1890 9410 1890
+Wire Wire Line
+	9310 1890 9310 2090
+Connection ~ 9310 1890
+$Comp
+L power:GND #PWR012
+U 1 1 60CA8BCD
+P 9310 2090
+F 0 "#PWR012" H 9310 1840 50  0001 C CNN
+F 1 "GND" H 9315 1917 50  0000 C CNN
+F 2 "" H 9310 2090 50  0001 C CNN
+F 3 "" H 9310 2090 50  0001 C CNN
+	1    9310 2090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9210 5740 9110 5740
+Wire Wire Line
+	9110 5740 9110 5940
+Wire Wire Line
+	9110 5940 9210 5940
+Wire Wire Line
+	9110 5940 9110 6140
+Connection ~ 9110 5940
+$Comp
+L power:GND #PWR010
+U 1 1 60CAA634
+P 9110 6140
+F 0 "#PWR010" H 9110 5890 50  0001 C CNN
+F 1 "GND" H 9115 5967 50  0000 C CNN
+F 2 "" H 9110 6140 50  0001 C CNN
+F 3 "" H 9110 6140 50  0001 C CNN
+	1    9110 6140
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9210 4940 8810 4940
+Text GLabel 8810 4940 0    50   Output ~ 0
+IO_PWM_0
+Wire Wire Line
+	9210 5040 8810 5040
+Text GLabel 8810 5040 0    50   Output ~ 0
+IO_PWM_1
+Wire Wire Line
+	9210 5140 8810 5140
+Text GLabel 8810 5140 0    50   Output ~ 0
+IO_PWM_2
+Wire Wire Line
+	9210 5240 8810 5240
+Text GLabel 8810 5240 0    50   Output ~ 0
+IO_PWM_3
+Wire Wire Line
+	9210 5340 8810 5340
+Text GLabel 8810 5340 0    50   Output ~ 0
+IO_PWM_4
+Wire Wire Line
+	9210 5440 8810 5440
+Text GLabel 8810 5440 0    50   Output ~ 0
+IO_PWM_5
+Wire Wire Line
+	9210 5540 8810 5540
+Text GLabel 8810 5540 0    50   Output ~ 0
+IO_PWM_6
+Wire Wire Line
+	9210 5640 8810 5640
+Text GLabel 8810 5640 0    50   Output ~ 0
+IO_PWM_7
+Wire Wire Line
+	9210 2950 8810 2950
+Text GLabel 8810 2950 0    50   Output ~ 0
+FMU_PWM_0
+Wire Wire Line
+	9210 3050 8810 3050
+Text GLabel 8810 3050 0    50   Output ~ 0
+FMU_PWM_1
+Wire Wire Line
+	9210 3150 8810 3150
+Text GLabel 8810 3150 0    50   Output ~ 0
+FMU_PWM_2
+Wire Wire Line
+	9210 3250 8810 3250
+Text GLabel 8810 3250 0    50   Output ~ 0
+FMU_PWM_3
+Wire Wire Line
+	9210 3350 8810 3350
+Text GLabel 8810 3350 0    50   Output ~ 0
+FMU_PWM_4
+Wire Wire Line
+	9210 3450 8810 3450
+Text GLabel 8810 3450 0    50   Output ~ 0
+FMU_PWM_5
+Wire Wire Line
+	9210 3550 8810 3550
+Text GLabel 8810 3550 0    50   Output ~ 0
+FMU_PWM_6
+Wire Wire Line
+	9210 3650 8810 3650
+Text GLabel 8810 3650 0    50   Output ~ 0
+FMU_PWM_7
+Wire Wire Line
+	9210 4840 9010 4840
+Wire Wire Line
+	9010 4840 9010 4750
+$Comp
+L power:+5V #PWR08
+U 1 1 60CB89B3
+P 9010 4750
+F 0 "#PWR08" H 9010 4600 50  0001 C CNN
+F 1 "+5V" H 9025 4923 50  0000 C CNN
+F 2 "" H 9010 4750 50  0001 C CNN
+F 3 "" H 9010 4750 50  0001 C CNN
+	1    9010 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9410 1090 9210 1090
+Wire Wire Line
+	9210 1090 9210 1030
+$Comp
+L power:+5V #PWR011
+U 1 1 60CBCC18
+P 9210 1000
+F 0 "#PWR011" H 9210 850 50  0001 C CNN
+F 1 "+5V" H 9225 1173 50  0000 C CNN
+F 2 "" H 9210 1000 50  0001 C CNN
+F 3 "" H 9210 1000 50  0001 C CNN
+	1    9210 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 6050 4600 6050
+Text GLabel 4600 6050 0    50   Input ~ 0
+FMU_PWM_0
+Wire Wire Line
+	5900 6150 6300 6150
+Text GLabel 6300 6150 2    50   Input ~ 0
+FMU_PWM_1
+Wire Wire Line
+	5000 6350 4600 6350
+Text GLabel 4600 6350 0    50   Input ~ 0
+FMU_PWM_2
+Wire Wire Line
+	5900 6450 6300 6450
+Text GLabel 6300 6450 2    50   Input ~ 0
+FMU_PWM_3
+Wire Wire Line
+	5000 6650 4600 6650
+Text GLabel 4600 6650 0    50   Input ~ 0
+FMU_PWM_4
+Wire Wire Line
+	5900 6750 6300 6750
+Text GLabel 6300 6750 2    50   Input ~ 0
+FMU_PWM_5
+Wire Wire Line
+	5000 6950 4600 6950
+Text GLabel 4600 6950 0    50   Input ~ 0
+FMU_PWM_6
+Wire Wire Line
+	5900 7050 6300 7050
+Text GLabel 6300 7050 2    50   Input ~ 0
+FMU_PWM_7
+$Sheet
+S 1330 4770 800  160 
+U 60CB6D2A
+F0 "ESC_Connector_IO_0" 50
+F1 "ESC_Connectors.sch" 50
+F2 "PWM_OUT" I R 2130 4850 50 
+$EndSheet
+$Sheet
+S 1330 5100 800  160 
+U 60CB6D2D
+F0 "ESC_Connector_IO_1" 50
+F1 "ESC_Connectors.sch" 50
+F2 "PWM_OUT" I R 2130 5180 50 
+$EndSheet
+$Sheet
+S 1330 5410 800  160 
+U 60CB6D30
+F0 "ESC_Connector_IO_2" 50
+F1 "ESC_Connectors.sch" 50
+F2 "PWM_OUT" I R 2130 5490 50 
+$EndSheet
+$Sheet
+S 1330 5730 800  160 
+U 60CB6D33
+F0 "ESC_Connector_IO_3" 50
+F1 "ESC_Connectors.sch" 50
+F2 "PWM_OUT" I R 2130 5810 50 
+$EndSheet
+$Sheet
+S 1330 6070 800  160 
+U 60CB6D36
+F0 "ESC_Connector_IO_4" 50
+F1 "ESC_Connectors.sch" 50
+F2 "PWM_OUT" I R 2130 6150 50 
+$EndSheet
+$Sheet
+S 1330 6420 800  160 
+U 60CB6D39
+F0 "ESC_Connector_IO_5" 50
+F1 "ESC_Connectors.sch" 50
+F2 "PWM_OUT" I R 2130 6500 50 
+$EndSheet
+$Sheet
+S 1330 6750 800  160 
+U 60CB6D3C
+F0 "ESC_Connector_IO_6" 50
+F1 "ESC_Connectors.sch" 50
+F2 "PWM_OUT" I R 2130 6830 50 
+$EndSheet
+Wire Wire Line
+	2130 4850 2530 4850
+Wire Wire Line
+	2130 5180 2530 5180
+Wire Wire Line
+	2130 5490 2530 5490
+Wire Wire Line
+	2130 5810 2530 5810
+Wire Wire Line
+	2130 6150 2530 6150
+Wire Wire Line
+	2130 6500 2530 6500
+Wire Wire Line
+	2130 6830 2530 6830
+Wire Wire Line
+	2130 7160 2530 7160
+$Sheet
+S 1330 7080 800  160 
+U 60CB6D4F
+F0 "ESC_Connector_IO_7" 50
+F1 "ESC_Connectors.sch" 50
+F2 "PWM_OUT" I R 2130 7160 50 
+$EndSheet
+Text GLabel 2530 4850 2    50   Input ~ 0
+IO_PWM_0
+Text GLabel 2530 5180 2    50   Input ~ 0
+IO_PWM_1
+Text GLabel 2530 5490 2    50   Input ~ 0
+IO_PWM_2
+Text GLabel 2530 5810 2    50   Input ~ 0
+IO_PWM_3
+Text GLabel 2530 6150 2    50   Input ~ 0
+IO_PWM_4
+Text GLabel 2530 6500 2    50   Input ~ 0
+IO_PWM_5
+Text GLabel 2530 6830 2    50   Input ~ 0
+IO_PWM_6
+Text GLabel 2530 7160 2    50   Input ~ 0
+IO_PWM_7
+Text Notes 1330 4600 0    118  ~ 24
+SOLDER JOINTS FOR ESC
+$Sheet
+S 4200 1140 940  450 
+U 60CE0BDD
+F0 "ADC" 50
+F1 "ADC.sch" 50
+F2 "I2C_ADC_SCL" I L 4200 1300 50 
+F3 "I2C_ADC_SDA" B L 4200 1400 50 
+$EndSheet
+Text Label 3400 1300 2    50   ~ 0
+I2C_SCL_PWR
+Text Label 3400 1400 2    50   ~ 0
+I2C_SDA_PWR
+Wire Wire Line
+	2700 1300 4200 1300
+Wire Wire Line
+	2700 1400 4200 1400
+Wire Wire Line
+	9410 1190 8900 1190
+Wire Wire Line
+	9410 1290 8900 1290
+Wire Wire Line
+	9410 1390 8900 1390
+Wire Wire Line
+	9410 1490 8900 1490
+Wire Wire Line
+	9410 1590 8900 1590
+Text GLabel 3100 1100 2    50   Input ~ 0
+VIN_MONITORED
+Wire Wire Line
+	1700 1800 1700 1900
+Connection ~ 1700 1800
+$Comp
+L power:GND #PWR01
+U 1 1 60D29038
+P 1700 1900
+F 0 "#PWR01" H 1700 1650 50  0001 C CNN
+F 1 "GND" H 1705 1727 50  0000 C CNN
+F 2 "" H 1700 1900 50  0001 C CNN
+F 3 "" H 1700 1900 50  0001 C CNN
+	1    1700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xavier_PWR:header_3x8 J3
+U 1 1 60CA8F75
+P 5000 5950
+F 0 "J3" H 5450 6215 50  0000 C CNN
+F 1 "header_3x8" H 5450 6124 50  0000 C CNN
+F 2 "Xavier_NX_Drone_PWR:header_3x8" H 5750 6050 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/TSW-108-25-L-T-RA.pdf" H 5750 5950 50  0001 L CNN
+F 4 "(2.54 mm) .100\" THROUGH-HOLE .025\" SQ POST HEADER" H 5750 5850 50  0001 L CNN "Description"
+F 5 "8.12" H 5750 5750 50  0001 L CNN "Height"
+F 6 "SAMTEC" H 5750 5450 50  0001 L CNN "Manufacturer_Name"
+F 7 "TSW-108-25-L-T-RA" H 5750 5350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5000 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5950 4900 5950
+Wire Wire Line
+	4900 5950 4900 6250
+Wire Wire Line
+	4900 6250 5000 6250
+Wire Wire Line
+	4900 6250 4900 6550
+Wire Wire Line
+	4900 6550 5000 6550
+Connection ~ 4900 6250
+Wire Wire Line
+	4900 6550 4900 6850
+Wire Wire Line
+	4900 6850 5000 6850
+Connection ~ 4900 6550
+Wire Wire Line
+	4900 6850 4900 7250
+Connection ~ 4900 6850
+Wire Wire Line
+	5900 6050 6000 6050
+Wire Wire Line
+	6000 6050 6000 6350
+Wire Wire Line
+	6000 6350 5900 6350
+Wire Wire Line
+	6000 6350 6000 6650
+Wire Wire Line
+	6000 6650 5900 6650
+Connection ~ 6000 6350
+Wire Wire Line
+	6000 6650 6000 6950
+Wire Wire Line
+	6000 6950 5900 6950
+Connection ~ 6000 6650
+Wire Wire Line
+	6000 6950 6000 7250
+Connection ~ 6000 6950
+$Comp
+L power:GND #PWR04
+U 1 1 60CDC0DA
+P 6000 7250
+F 0 "#PWR04" H 6000 7000 50  0001 C CNN
+F 1 "GND" H 6005 7077 50  0000 C CNN
+F 2 "" H 6000 7250 50  0001 C CNN
+F 3 "" H 6000 7250 50  0001 C CNN
+	1    6000 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 60CDCC80
+P 4900 7250
+F 0 "#PWR03" H 4900 7000 50  0001 C CNN
+F 1 "GND" H 4905 7077 50  0000 C CNN
+F 2 "" H 4900 7250 50  0001 C CNN
+F 3 "" H 4900 7250 50  0001 C CNN
+	1    4900 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7050 4800 7050
+Wire Wire Line
+	4800 7050 4800 6750
+Wire Wire Line
+	4800 6750 5000 6750
+Wire Wire Line
+	4800 6750 4800 6450
+Wire Wire Line
+	4800 6450 5000 6450
+Connection ~ 4800 6750
+Wire Wire Line
+	4800 6450 4800 6150
+Wire Wire Line
+	4800 6150 5000 6150
+Connection ~ 4800 6450
+Wire Wire Line
+	4800 6150 4800 5800
+Connection ~ 4800 6150
+Wire Wire Line
+	5900 5950 6100 5950
+Wire Wire Line
+	6100 5950 6100 6250
+Wire Wire Line
+	6100 6250 5900 6250
+Wire Wire Line
+	6100 6250 6100 6550
+Wire Wire Line
+	6100 6550 5900 6550
+Connection ~ 6100 6250
+Wire Wire Line
+	6100 6550 6100 6850
+Wire Wire Line
+	6100 6850 5900 6850
+Connection ~ 6100 6550
+Wire Wire Line
+	6100 5950 6100 5750
+Connection ~ 6100 5950
+Text GLabel 6100 5650 1    50   Input ~ 0
+PWR_BEC_5V_SERVO
+Text GLabel 4800 5650 1    50   Input ~ 0
+PWR_BEC_5V_SERVO
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60CFFC6E
+P 6100 5750
+F 0 "#FLG02" H 6100 5825 50  0001 C CNN
+F 1 "PWR_FLAG" V 6100 5878 50  0000 L CNN
+F 2 "" H 6100 5750 50  0001 C CNN
+F 3 "~" H 6100 5750 50  0001 C CNN
+	1    6100 5750
+	0    1    1    0   
+$EndComp
+Connection ~ 6100 5750
+Wire Wire Line
+	6100 5750 6100 5650
+Text Notes 4000 4590 0    118  ~ 24
+FMU Servo Connector
+$Comp
+L Xavier_PWR:header_3x6 J4
+U 1 1 60D266C0
+P 6720 1570
+F 0 "J4" H 7020 610 50  0000 C CNN
+F 1 "header_3x6" H 7180 510 50  0000 C CNN
+F 2 "Xavier_NX_Drone_PWR:header_3x6" H 7470 1670 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/TSW-106-10-T-T-RA.pdf" H 7470 1570 50  0001 L CNN
+F 4 "CONN HEADER 18 POS .100\"" H 7470 1470 50  0001 L CNN "Description"
+F 5 "8.1" H 7470 1370 50  0001 L CNN "Height"
+F 6 "200-TSW10610TTRA" H 7470 1270 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=200-TSW10610TTRA" H 7470 1170 50  0001 L CNN "Mouser Price/Stock"
+F 8 "SAMTEC" H 7470 1070 50  0001 L CNN "Manufacturer_Name"
+F 9 "TSW-106-10-T-T-RA" H 7470 970 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6720 1570
+	1    0    0    -1  
+$EndComp
+Text Label 8900 1190 0    50   ~ 0
+FMU_CAP1
+Text Label 8900 1290 0    50   ~ 0
+TIM_SPARE
+Text Label 8900 1390 0    50   ~ 0
+TIM_SPARE2
+Text Label 8900 1490 0    50   ~ 0
+ADC1_3V3
+Text Label 8900 1590 0    50   ~ 0
+ADC2_6V6
+Wire Wire Line
+	6720 1570 6210 1570
+Text Label 6210 1570 0    50   ~ 0
+FMU_CAP1
+Wire Wire Line
+	7620 1670 8130 1670
+Wire Wire Line
+	6720 1870 6210 1870
+Wire Wire Line
+	7620 1970 8130 1970
+Wire Wire Line
+	6720 2170 6210 2170
+Text Label 8130 1670 2    50   ~ 0
+TIM_SPARE
+Text Label 6210 1870 0    50   ~ 0
+TIM_SPARE2
+Text Label 8130 1970 2    50   ~ 0
+ADC1_3V3
+Text Label 6210 2170 0    50   ~ 0
+ADC2_6V6
+Wire Wire Line
+	6720 1670 6620 1670
+Wire Wire Line
+	6620 1670 6620 1970
+Wire Wire Line
+	6620 1970 6720 1970
+Wire Wire Line
+	6620 1970 6620 2270
+Wire Wire Line
+	6620 2270 6720 2270
+Connection ~ 6620 1970
+Wire Wire Line
+	6620 2270 6620 2570
+Connection ~ 6620 2270
+$Comp
+L power:GND #PWR05
+U 1 1 60D4E22A
+P 6620 2570
+F 0 "#PWR05" H 6620 2320 50  0001 C CNN
+F 1 "GND" H 6625 2397 50  0000 C CNN
+F 2 "" H 6620 2570 50  0001 C CNN
+F 3 "" H 6620 2570 50  0001 C CNN
+	1    6620 2570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7620 1770 7720 1770
+Wire Wire Line
+	7720 1770 7720 2070
+Wire Wire Line
+	7720 2070 7620 2070
+Wire Wire Line
+	7720 2070 7720 2370
+Wire Wire Line
+	7720 2370 7620 2370
+Connection ~ 7720 2070
+Wire Wire Line
+	7720 2370 7720 2570
+Connection ~ 7720 2370
+$Comp
+L power:GND #PWR06
+U 1 1 60D643E7
+P 7720 2570
+F 0 "#PWR06" H 7720 2320 50  0001 C CNN
+F 1 "GND" H 7725 2397 50  0000 C CNN
+F 2 "" H 7720 2570 50  0001 C CNN
+F 3 "" H 7720 2570 50  0001 C CNN
+	1    7720 2570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7620 1570 7920 1570
+Wire Wire Line
+	7920 1570 7920 1870
+Wire Wire Line
+	7920 1870 7620 1870
+Wire Wire Line
+	7920 1870 7920 2170
+Wire Wire Line
+	7920 2170 7620 2170
+Connection ~ 7920 1870
+Wire Wire Line
+	7620 2270 7920 2270
+NoConn ~ 7920 2270
+Wire Wire Line
+	7920 1570 7920 1270
+Connection ~ 7920 1570
+Wire Wire Line
+	6720 2370 6520 2370
+Wire Wire Line
+	6520 2370 6520 2070
+Wire Wire Line
+	6520 2070 6720 2070
+Wire Wire Line
+	6520 2070 6520 1770
+Wire Wire Line
+	6520 1770 6720 1770
+Connection ~ 6520 2070
+Wire Wire Line
+	6520 1770 6520 1270
+Connection ~ 6520 1770
+Wire Wire Line
+	6520 1270 7920 1270
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60DCBEC7
+P 9210 1030
+F 0 "#FLG0101" H 9210 1105 50  0001 C CNN
+F 1 "PWR_FLAG" V 9210 1157 50  0000 L CNN
+F 2 "" H 9210 1030 50  0001 C CNN
+F 3 "~" H 9210 1030 50  0001 C CNN
+	1    9210 1030
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9210 1030
+Wire Wire Line
+	9210 1030 9210 1000
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60DCD3E7
+P 9110 3840
+F 0 "#FLG0102" H 9110 3915 50  0001 C CNN
+F 1 "PWR_FLAG" V 9110 3967 50  0000 L CNN
+F 2 "" H 9110 3840 50  0001 C CNN
+F 3 "~" H 9110 3840 50  0001 C CNN
+	1    9110 3840
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9110 3840
+Wire Wire Line
+	9110 3840 9110 3950
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 60D171A2
+P 3600 3300
+F 0 "H1" H 3700 3349 50  0000 L CNN
+F 1 "2.5mm mounting" H 3700 3258 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 3600 3300 50  0001 C CNN
+F 3 "~" H 3600 3300 50  0001 C CNN
+	1    3600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3400 3600 3510
+$Comp
+L power:GND #PWR034
+U 1 1 60D1F765
+P 3600 3510
+F 0 "#PWR034" H 3600 3260 50  0001 C CNN
+F 1 "GND" H 3605 3337 50  0000 C CNN
+F 2 "" H 3600 3510 50  0001 C CNN
+F 3 "" H 3600 3510 50  0001 C CNN
+	1    3600 3510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60D27C83
+P 4900 3290
+F 0 "H3" H 5000 3339 50  0000 L CNN
+F 1 "2.5mm mounting" H 5000 3248 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4900 3290 50  0001 C CNN
+F 3 "~" H 4900 3290 50  0001 C CNN
+	1    4900 3290
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3390 4900 3500
+$Comp
+L power:GND #PWR036
+U 1 1 60D27C8A
+P 4900 3500
+F 0 "#PWR036" H 4900 3250 50  0001 C CNN
+F 1 "GND" H 4905 3327 50  0000 C CNN
+F 2 "" H 4900 3500 50  0001 C CNN
+F 3 "" H 4900 3500 50  0001 C CNN
+	1    4900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 60D2F680
+P 3600 3900
+F 0 "H2" H 3700 3949 50  0000 L CNN
+F 1 "2.5mm mounting" H 3700 3858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 3600 3900 50  0001 C CNN
+F 3 "~" H 3600 3900 50  0001 C CNN
+	1    3600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4000 3600 4110
+$Comp
+L power:GND #PWR035
+U 1 1 60D2F687
+P 3600 4110
+F 0 "#PWR035" H 3600 3860 50  0001 C CNN
+F 1 "GND" H 3605 3937 50  0000 C CNN
+F 2 "" H 3600 4110 50  0001 C CNN
+F 3 "" H 3600 4110 50  0001 C CNN
+	1    3600 4110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 60D3671F
+P 4900 3890
+F 0 "H4" H 5000 3939 50  0000 L CNN
+F 1 "2.5mm mounting" H 5000 3848 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4900 3890 50  0001 C CNN
+F 3 "~" H 4900 3890 50  0001 C CNN
+	1    4900 3890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3990 4900 4100
+$Comp
+L power:GND #PWR037
+U 1 1 60D36726
+P 4900 4100
+F 0 "#PWR037" H 4900 3850 50  0001 C CNN
+F 1 "GND" H 4905 3927 50  0000 C CNN
+F 2 "" H 4900 4100 50  0001 C CNN
+F 3 "" H 4900 4100 50  0001 C CNN
+	1    4900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xavier_PWR:ApotheoTech_Logo SYM1
+U 1 1 60D669F5
+P 6940 4130
+F 0 "SYM1" H 7368 4176 50  0000 L CNN
+F 1 "ApotheoTech_Logo" H 7368 4085 50  0000 L CNN
+F 2 "Xavier_NX_Drone_PWR:ApotheoTech_Sym" H 6940 4280 50  0001 C CNN
+F 3 "" H 6940 4280 50  0001 C CNN
+	1    6940 4130
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xavier_PWR:505405-0670 J24
+U 1 1 60D6F312
+P 1800 2210
+F 0 "J24" H 2250 2475 50  0000 C CNN
+F 1 "505405-0670" H 2250 2384 50  0000 C CNN
+F 2 "Xavier_NX_Drone_PWR:5054050670" H 2550 2310 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/505405-0670.pdf" H 2550 2210 50  0001 L CNN
+F 4 "Headers & Wire Housings 1.5 CLIKMate REC WB 6CKT VRT SR GLD PLTG" H 2550 2110 50  0001 L CNN "Description"
+F 5 "6.35" H 2550 2010 50  0001 L CNN "Height"
+F 6 "538-505405-0670" H 2550 1910 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505405-0670?qs=eKig3M7YXu%252B%252BB9S4VwyG6w%3D%3D" H 2550 1810 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 2550 1710 50  0001 L CNN "Manufacturer_Name"
+F 9 "505405-0670" H 2550 1610 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1800 2210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2310 1700 2210
+Connection ~ 1700 2310
+Wire Wire Line
+	1700 2210 1800 2210
+Wire Wire Line
+	1700 2310 1800 2310
+Wire Wire Line
+	1700 2910 2800 2910
+Wire Wire Line
+	2800 2910 2800 2710
+Wire Wire Line
+	2800 2710 2700 2710
+Wire Wire Line
+	1700 2910 1700 2310
+Wire Wire Line
+	2800 2710 2800 2610
+Wire Wire Line
+	2800 2610 2700 2610
+Connection ~ 2800 2710
+Wire Wire Line
+	2700 2310 2800 2310
+Wire Wire Line
+	2800 2310 2800 2210
+Wire Wire Line
+	2800 2210 2700 2210
+Connection ~ 2800 2210
+Wire Wire Line
+	2800 2210 3100 2210
+Text GLabel 3100 2210 2    50   Input ~ 0
+VIN_MONITORED
+Wire Wire Line
+	1700 2910 1700 3010
+Connection ~ 1700 2910
+$Comp
+L power:GND #PWR038
+U 1 1 60D6F32F
+P 1700 3010
+F 0 "#PWR038" H 1700 2760 50  0001 C CNN
+F 1 "GND" H 1705 2837 50  0000 C CNN
+F 2 "" H 1700 3010 50  0001 C CNN
+F 3 "" H 1700 3010 50  0001 C CNN
+	1    1700 3010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2410 2900 2410
+Wire Wire Line
+	2700 2510 2900 2510
+NoConn ~ 2900 2410
+NoConn ~ 2900 2510
+Wire Wire Line
+	8800 2850 9210 2850
+Text GLabel 8800 2850 0    50   Input ~ 0
+SERVO_VOLTAGE_ADC
+Text GLabel 4600 5800 0    50   Input ~ 0
+SERVO_VOLTAGE_ADC
+Wire Wire Line
+	4600 5800 4800 5800
+Connection ~ 4800 5800
+Wire Wire Line
+	4800 5800 4800 5650
+Text Label 6520 1270 0    50   ~ 0
+PWR_BEC_5V_2
+$EndSCHEMATC
